@@ -7,10 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBlock Text="It Works"
-                   HorizontalAlignment="Center"
-                   VerticalAlignment="Center"
-                   FontSize="90"
-                   FontWeight="Bold" />
+        <StackPanel>
+            <TextBlock Text="It Works"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
+                       FontSize="90"
+                       FontWeight="Bold" />
+            <TextBlock Text="New Branch"
+                       HorizontalAlignment="Center"
+                       FontSize="45"
+                       FontWeight="Bold"/>
+        </StackPanel>
     </Grid>
 </Window>
